@@ -8,10 +8,12 @@ using Telegram.Bot.Types.Enums;
 using Telegram.Bot.Types.InlineQueryResults;
 using Telegram.Bot.Types.ReplyMarkups;
 
-namespace Telegram.Bot.Examples.Echo
+namespace Telegram.Bot.Sorvetor
 {
-    public static class Program
+    class Program
     {
+        Telegram.Bot.Sorvetor.Database databaseObject = new Database();
+
         private static readonly TelegramBotClient Bot = new TelegramBotClient("TOKEN");
 
         public static void Main(string[] args)
