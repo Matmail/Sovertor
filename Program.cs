@@ -55,7 +55,7 @@ namespace Telegram.Bot.Examples.Echo
 
                 default:
                     const string usage = @"
-Welcome to VATSIM Bot v1.0! Type /help to get started.";
+Welcome to Sorvetor Bot v1.0! Type /help to get started.";
 
                     await Bot.SendTextMessageAsync(
                         message.Chat.Id,
