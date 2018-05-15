@@ -12,12 +12,11 @@ namespace Telegram.Bot.Sorvetor
 {
     class Program
     {
-        Telegram.Bot.Sorvetor.Database databaseObject = new Database();
-
         private static readonly TelegramBotClient Bot = new TelegramBotClient("TOKEN");
 
         public static void Main(string[] args)
         {
+            Database databaseObject = new Database();
             var me = Bot.GetMeAsync().Result;
             Console.Title = me.Username;
 
