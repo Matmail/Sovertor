@@ -10,3 +10,6 @@ C:\Users\rain\projects\TelegramSorvertor\obj\Debug\TelegramSorvetor.csproj.CoreC
 C:\Users\rain\projects\TelegramSorvertor\obj\Debug\TelegramSorvetor.csproj.CopyComplete
 C:\Users\rain\projects\TelegramSorvertor\obj\Debug\TelegramSorvetor.exe
 C:\Users\rain\projects\TelegramSorvertor\obj\Debug\TelegramSorvetor.pdb
+C:\Users\rain\projects\TelegramSorvertor\bin\Debug\System.Data.SQLite.dll
+C:\Users\rain\projects\TelegramSorvertor\bin\Debug\System.Data.SQLite.xml
+C:\Users\rain\projects\TelegramSorvertor\bin\Debug\System.Data.SQLite.dll.config
