@@ -16,7 +16,6 @@ namespace Telegram.Bot.Sorvetor
 
         public static void Main(string[] args)
         {
-            Database databaseObject = new Database();
             var me = Bot.GetMeAsync().Result;
             Console.Title = me.Username;
 
@@ -49,7 +48,7 @@ namespace Telegram.Bot.Sorvetor
                 case "/start":
                     await Bot.SendTextMessageAsync(
                         message.Chat.Id,
-                        "Welcome!");
+                        "Welcome to Sovertor! DEBUG: No invite link detected.");
                     break;
 
                 default:
