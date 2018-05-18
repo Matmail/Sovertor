@@ -16,6 +16,9 @@ namespace Telegram.Bot.Sorvetor
 
         public static void Main(string[] args)
         {
+            Helper newHelper = new Helper();
+            newHelper.connect();
+
             var me = Bot.GetMeAsync().Result;
             Console.Title = me.Username;
 
@@ -51,15 +54,15 @@ namespace Telegram.Bot.Sorvetor
                         "Welcome to Sovertor! DEBUG: No invite link detected.");
                     break;
 
-                default:
-                    const string usage = @"
-Welcome to Sorvetor Bot v1.0! Type /help to get started.";
-
-                    await Bot.SendTextMessageAsync(
-                        message.Chat.Id,
-                        usage,
-                        replyMarkup: new ReplyKeyboardRemove());
-                    break;
+//                 default:
+//                     const string usage = @"
+// Welcome to Sorvetor Bot v1.0! Type /help to get started.";
+// 
+//                     await Bot.SendTextMessageAsync(
+//                         message.Chat.Id,
+//                         usage,
+//                         replyMarkup: new ReplyKeyboardRemove());
+//                     break;
             }
         }
 
